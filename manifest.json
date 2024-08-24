@@ -1,11 +1,10 @@
 {
-	"id": "sample-plugin",
-	"name": "Sample Plugin",
+	"id": "obsidian-link-aggregator",
+	"name": "Link Aggregator",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
-	"description": "Demonstrates some of the capabilities of the Obsidian API.",
-	"author": "Obsidian",
-	"authorUrl": "https://obsidian.md",
-	"fundingUrl": "https://obsidian.md/pricing",
+	"description": "Aggregate links from your Obsidian vault and publish to Notion",
+	"author": "Your Name",
+	"authorUrl": "https://your-website.com",
 	"isDesktopOnly": false
 }

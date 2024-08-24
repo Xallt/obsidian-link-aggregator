@@ -1,20 +1,22 @@
 {
-	"name": "obsidian-sample-plugin",
+	"name": "obsidian-link-aggregator",
 	"version": "1.0.0",
-	"description": "This is a sample plugin for Obsidian (https://obsidian.md)",
+	"description": "Aggregate links from Obsidian and publish to Notion",
 	"main": "main.js",
 	"scripts": {
 		"dev": "node esbuild.config.mjs",
 		"build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
 		"version": "node version-bump.mjs && git add manifest.json versions.json"
 	},
-	"keywords": [],
-	"author": "",
+	"keywords": ["obsidian", "plugin", "link", "aggregator", "notion"],
+	"author": "Your Name",
 	"license": "MIT",
 	"devDependencies": {
+		"@notionhq/client": "^2.2.15",
 		"@types/node": "^16.11.6",
 		"@typescript-eslint/eslint-plugin": "5.29.0",
 		"@typescript-eslint/parser": "5.29.0",
+		"axios": "^1.7.5",
 		"builtin-modules": "3.3.0",
 		"esbuild": "0.17.3",
 		"obsidian": "latest",
